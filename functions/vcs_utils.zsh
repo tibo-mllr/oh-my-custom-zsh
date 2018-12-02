@@ -9,7 +9,7 @@
 # Thanks to http://eseth.org/2010/git-in-zsh.html
 +vi-git-stash () {
 	if [[ -s ${hook_com[base]}/.git/refs/stash ]] ; then
-		hook_com[misc]+=$OHMYVIA_VCS_COLOR_STASH
+		hook_com[misc]+=$OHMYVIAREZO_VCS_COLOR_STASH
 	fi
 }
 
@@ -21,15 +21,14 @@
 		# If instead you want to show the marker only if there are untracked
 		# files in $PWD, use:
 		#[[ -n $(git ls-files --others --exclude-standard) ]] ; then
-		hook_com[misc]+=$OHMYVIA_VCS_COLOR_UNTRACKED
+		hook_com[misc]+=$OHMYVIAREZO_VCS_COLOR_UNTRACKED
 	fi
 }
 
 # Erase hook_com[misc] ( ie. %m ) to avoid dealing with backends info outputs
 # Add $vcs_clean_color to setup default %b coloring in vcs prompt
 +vi-misc-init () {
-	hook_com[misc]=$OHMYVIA_VCS_COLOR_CLEAN
+	hook_com[misc]=$OHMYVIAREZO_VCS_COLOR_CLEAN
 }
 
 # vim: ft=zsh fenc=utf-8
-
