@@ -1,7 +1,6 @@
 VIA theme for ZSH
 =================
 
-[![Build Status](https://travis-ci.org/badouralix/oh-my-via.svg?branch=master)](https://travis-ci.org/badouralix/oh-my-via)
 [![WTFPLv2 License](https://img.shields.io/badge/license-WTFPLv2-blue.svg)](http://www.wtfpl.net)
 
 This is a theme for ZSH which mainly forks the historical theme used on
@@ -76,4 +75,3 @@ License
 -------
 
 Unless explicitly stated to the contrary, all contents licensed under the [WTFPL](LICENSE).
-
