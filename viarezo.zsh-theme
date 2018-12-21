@@ -11,7 +11,7 @@
 # Source functions
 #################################################################################
 
-OHMYVIA_INSTALLATION_PATH="$(dirname "$0")"
+OHMYVIAREZO_INSTALLATION_PATH="$(dirname "$0")"
 
 source $OHMYVIAREZO_INSTALLATION_PATH/functions/prompt_utils.zsh
 source $OHMYVIAREZO_INSTALLATION_PATH/functions/utils.zsh
