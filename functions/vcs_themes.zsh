@@ -19,53 +19,43 @@
 #	%m : A "misc" replacement. It is at the discretion of the backend to decide what this replacement expands to.
 
 +vi-theme-default () {
-	local vcs_prompt_prefix="%F{magenta}(%F{white}%s%F{magenta})%f"
-	local vcs_prompt_hyphen="%F{yellow}-%f"
 	local vcs_prompt_normal="%F{magenta}[%m%c%u%b%F{magenta}]%f"
 	local vcs_prompt_action="%F{magenta}[%m%c%u%b%F{magenta}|%F{red}%a%F{magenta}]%f"
 
-	OHMYVIAREZO_VCS_PROMPT_NORMAL=${OHMYVIAREZO_VCS_PROMPT_NORMAL:-"$vcs_prompt_prefix$vcs_prompt_hyphen$vcs_prompt_normal"}
-	OHMYVIAREZO_VCS_PROMPT_ACTION=${OHMYVIAREZO_VCS_PROMPT_ACTION:-"$vcs_prompt_prefix$vcs_prompt_hyphen$vcs_prompt_action"}
+	OHMYVIAREZO_VCS_PROMPT_NORMAL="$vcs_prompt_normal"
+	OHMYVIAREZO_VCS_PROMPT_ACTION="$vcs_prompt_action"
 }
 
 +vi-theme-alphabet () {
-	local vcs_prompt_prefix="%F{magenta}(%F{white}%s%F{magenta})%f"
-	local vcs_prompt_hyphen="%F{yellow}-%f"
 	local vcs_prompt_normal="%F{magenta}[%m%c%u%b%F{magenta}]%f"
 	local vcs_prompt_action="%F{magenta}[%m%c%u%b %F{magenta}| %F{red}%a%F{magenta}]%f"
 
-	OHMYVIAREZO_VCS_PROMPT_NORMAL="$vcs_prompt_prefix$vcs_prompt_hyphen$vcs_prompt_normal"
-	OHMYVIAREZO_VCS_PROMPT_ACTION="$vcs_prompt_prefix$vcs_prompt_hyphen$vcs_prompt_action"
+	OHMYVIAREZO_VCS_PROMPT_NORMAL="$vcs_prompt_normal"
+	OHMYVIAREZO_VCS_PROMPT_ACTION="$vcs_prompt_action"
 }
 
 +vi-theme-djou () {
-	local vcs_prompt_prefix="%F{white}%s%f"
-	local vcs_prompt_hyphen=" %F{yellow}-%f "
 	local vcs_prompt_normal="%m%c%u%b%f"
 	local vcs_prompt_action="%m%c%u%b %F{magenta}| %F{red}%a%f"
 
-	OHMYVIAREZO_VCS_PROMPT_NORMAL="$vcs_prompt_prefix$vcs_prompt_hyphen$vcs_prompt_normal"
-	OHMYVIAREZO_VCS_PROMPT_ACTION="$vcs_prompt_prefix$vcs_prompt_hyphen$vcs_prompt_action"
+	OHMYVIAREZO_VCS_PROMPT_NORMAL="$vcs_prompt_normal"
+	OHMYVIAREZO_VCS_PROMPT_ACTION="$vcs_prompt_action"
 }
 
 +vi-theme-kiwi () {
-	local vcs_prompt_prefix="%F{magenta}(%F{white}%s%F{magenta})%f"
-	local vcs_prompt_hyphen="%F{yellow}-%f"
 	local vcs_prompt_normal="%F{magenta}[%m%c%u%b%F{magenta}]%f"
 	local vcs_prompt_action="%F{magenta}[%m%c%u%b%F{yellow}|%F{red}%a%F{magenta}]%f"
 
-	OHMYVIAREZO_VCS_PROMPT_NORMAL="$vcs_prompt_prefix$vcs_prompt_hyphen$vcs_prompt_normal"
-	OHMYVIAREZO_VCS_PROMPT_ACTION="$vcs_prompt_prefix$vcs_prompt_hyphen$vcs_prompt_action"
+	OHMYVIAREZO_VCS_PROMPT_NORMAL="$vcs_prompt_normal"
+	OHMYVIAREZO_VCS_PROMPT_ACTION="$vcs_prompt_action"
 }
 
 +vi-theme-jon () {
-	local vcs_prompt_prefix=""
-	local vcs_prompt_hyphen=""
 	local vcs_prompt_normal="%F{magenta}[%m%c%u%b%F{magenta}]%f"
 	local vcs_prompt_action="%F{magenta}[%m%c%u%b%F{magenta}|%F{red}%a%F{magenta}]%f"
 
-	OHMYVIAREZO_VCS_PROMPT_NORMAL="$vcs_prompt_prefix$vcs_prompt_hyphen$vcs_prompt_normal"
-	OHMYVIAREZO_VCS_PROMPT_ACTION="$vcs_prompt_prefix$vcs_prompt_hyphen$vcs_prompt_action"
+	OHMYVIAREZO_VCS_PROMPT_NORMAL="$vcs_prompt_normal"
+	OHMYVIAREZO_VCS_PROMPT_ACTION="$vcs_prompt_action"
 }
 
 # vim: ft=zsh fenc=utf-8

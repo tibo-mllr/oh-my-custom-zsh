@@ -45,14 +45,13 @@ set_default OHMYVIAREZO_VCS_COLOR_STASH          "cyan"
 set_default OHMYVIAREZO_VCS_COLOR_CLEAN          "green"
 set_default OHMYVIAREZO_VCS_THEME                "default"
 
-
 #################################################################################
 # Build left & right prompts
 #################################################################################
 
 OHMYVIAREZO_EOL="%(?.$OHMYVIAREZO_STATUS_OK_COLOR.$OHMYVIAREZO_STATUS_ERROR_COLOR)%#%f%b"
 
-PROMPT="$(prompt_time) $(prompt_context) $(prompt_dir)${OHMYVIAREZO_EOL} "
+PROMPT="$(prompt_context) $(prompt_dir)${OHMYVIAREZO_EOL} "
 
 # Display vcs info
 # http://zsh.sourceforge.net/Doc/Release/User-Contributions.html#Version-Control-Information

@@ -34,7 +34,7 @@ prompt_context () {
 # Print current directory with ~ instead of $HOME
 # See http://zsh.sourceforge.net/Doc/Release/Prompt-Expansion.html#Shell-state
 prompt_dir () {
-	local current_dir="$OHMYVIAREZO_DIR_COLOR%~%b%f"
+	local current_dir="$OHMYVIAREZO_DIR_COLOR%1~%b%f"
 
 	echo $current_dir
 }
