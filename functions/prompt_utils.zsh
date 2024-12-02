@@ -39,11 +39,4 @@ prompt_dir () {
 	echo $current_dir
 }
 
-# Print current time
-prompt_time () {
-	local clock="$OHMYVIAREZO_TIME_COLOR$OHMYVIAREZO_TIME_FORMAT%b%f"
-
-	echo $clock
-}
-
 # vim: ft=zsh fenc=utf-8
