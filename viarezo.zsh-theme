@@ -39,7 +39,7 @@ set_default OHMYVIAREZO_TIME_COLOR               "%B%F{cyan}"
 set_default OHMYVIAREZO_TIME_FORMAT              "%D{%H:%M}"
 
 set_default OHMYVIAREZO_VCS_COLOR_UNSTAGED       "red"
-set_default OHMYVIAREZO_VCS_COLOR_STAGE          "yellow"
+set_default OHMYVIAREZO_VCS_COLOR_STAGED         "yellow"
 set_default OHMYVIAREZO_VCS_COLOR_UNTRACKED      "blue"
 set_default OHMYVIAREZO_VCS_COLOR_STASH          "cyan"
 set_default OHMYVIAREZO_VCS_COLOR_CLEAN          "green"
