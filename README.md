@@ -20,16 +20,12 @@ be used with ZSH frameworks such as [Oh-My-ZSH](https://github.com/robbyrussell/
 ## Install for Oh-My-ZSH
 
 In order to use this theme, you have to clone this repository in your Oh-My-ZSH `custom/themes` directory
-(usually `~/.oh-my-zsh/custom/themes`):
-
-```shell
-git clone https://gitlab.viarezo.fr/ViaRezo/oh-my-viarezo.git $ZSH/custom/themes/oh-my-viarezo
-```
+(usually `~/.oh-my-zsh/custom/themes`).
 
 You then need to select this theme in your `~/.zshrc` :
 
 ```shell
-ZSH_THEME="oh-my-viarezo/viarezo"
+ZSH_THEME="oh-my-cutom-zsh/viarezo"
 ```
 
 ## Customization
