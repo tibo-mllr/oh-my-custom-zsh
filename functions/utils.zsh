@@ -12,9 +12,10 @@
 # @param $1 : name of the variable to be filled
 # @param $2 : default value set if $1 is not already defined
 set_default () {
+	# Enable case-insensitive matching for the scope of this function
+	setopt localoptions nocasematch
 
 	# /!\ compute differently with color variables
-	# TODO make the regex case-insensitive
 	if [[ $1 =~ '_COLOR(_.*)?$' ]]; then
 		set_default_color "$@"
 	else
